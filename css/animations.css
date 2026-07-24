@@ -1,0 +1,65 @@
+/* Smooth transitions */
+
+*{
+    transition: all 0.3s ease;
+}
+
+/* Hero Section Animation */
+
+.hero{
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Section Animation */
+
+section{
+    animation: slideUp 0.8s ease;
+}
+
+/* Project Card Hover */
+
+.project-card:hover{
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0,0,0,.2);
+}
+
+/* Button Hover */
+
+.btn:hover,
+button:hover{
+    transform: scale(1.05);
+}
+
+/* Navigation Links */
+
+nav a:hover{
+    color: var(--primary);
+}
+
+/* Image Hover */
+
+.hero-image img:hover{
+    transform: scale(1.05) rotate(2deg);
+}
+
+/* Keyframes */
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+@keyframes slideUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
