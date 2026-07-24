@@ -1,0 +1,17 @@
+:root{
+    --primary:#2563eb;
+    --secondary:#0f172a;
+    --background:#f8fafc;
+    --card:#ffffff;
+    --text:#1e293b;
+    --border:#d1d5db;
+    --shadow:0 10px 25px rgba(0,0,0,.12);
+    --radius:14px;
+}
+
+.dark-theme{
+    --background:#0f172a;
+    --card:#1e293b;
+    --text:#f8fafc;
+    --border:#334155;
+}
